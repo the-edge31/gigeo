@@ -7,9 +7,24 @@ body {
     padding: 1rem 1rem;
 }
 
+.bg-light {
+    background-color:$white !important;
+}
+
 .card {
 	border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 0.25rem;
     height: 100%;
 }
+
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:$negro;
+}
+
+
 

@@ -9659,15 +9659,28 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-nav {
+.navbar {
   font-family: "Open Sans", sans-serif;
-  height: 100%;
+  padding: 1rem 1rem;
+}
+
+.bg-light {
+  background-color: #fff !important;
 }
 
 .card {
   border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.25rem;
   height: 100%;
+}
+
+.navbar-light .navbar-toggler {
+  color: black;
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071013;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -9734,7 +9747,7 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  margin-top: 4%;
+  margin-left: 4%;
 }
 
 h3 {
@@ -9756,9 +9769,23 @@ p {
   background-position: center;
 }
 
+@media only screen and (max-width: 375px) {
+  .main__img {
+    height: 100px;
+  }
+}
 section span {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+}
+
+section img {
+  margin-right: 12%;
+}
+
+.section__p {
+  margin-left: 4%;
+  margin-top: 4%;
 }
 
 .button__azul {
